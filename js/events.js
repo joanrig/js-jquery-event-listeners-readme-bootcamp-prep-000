@@ -12,14 +12,22 @@ function frameIt() {
   });
 }
 
-
 function pressIt() {
-  $('#typing').on('keydown', function(key) {
-    if (key.keyCode == 70) {
-      alert("You pressed 'g'.");
+  $('input').on('keydown', function(key) {
+    if(key.which == 71){
+        alert('g was pressed');
     }
   });
 }
+
+
+// function pressIt() {
+//   $('#typing').on('keydown', function(key) {
+//     if (key.keyCode == 70) {
+//       alert("You pressed 'g'.");
+//     }
+//   });
+// }
 
 
 function submitIt() {
