@@ -14,9 +14,17 @@ function frameIt() {
 
 
 
+// function pressIt() {
+//   $('input#typing').on('keydown', function(key) {
+//     if (key.keyCode == 70) {
+//       alert('g was pressed');
+//     }
+//   });
+// }
+
 function pressIt() {
-  $('input#typing').on('keydown', function(key) {
-    if (key.keyCode == 70) {
+  $("input#typing").on('keydown', function(key) {
+    if (key.keyCode == 71) {
       alert('g was pressed');
     }
   });
